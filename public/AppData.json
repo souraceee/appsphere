@@ -1,0 +1,316 @@
+[
+  {
+    "id": 1,
+    "title": "QuickNotes",
+    "companyName": "NoteTech",
+    "image": "https://i.ibb.co/S7Pt1Nm6/Quick-Notes.webp",
+    "description": "A fast, simple, and secure note-taking app for everyone.",
+    "moredescription": "QuickNotes transforms the traditional note-taking experience into a seamless, intelligent process. Designed for professionals, students, and everyday users, it allows you to capture ideas instantly, organize them into folders, and sync across devices in real time. Its clean interface ensures that writing feels natural and distraction-free. You can add tags, voice notes, checklists, and even attach images to make every note complete. The built-in search helps you find your notes instantly, no matter how many you’ve written.\n\nQuickNotes also supports cloud backup, ensuring your thoughts are never lost. The offline mode allows you to write even when you’re disconnected, syncing automatically once you’re back online. With customizable themes and font options, users can personalize their workspace. Whether you’re jotting down study notes, creating to-do lists, or drafting ideas for your next project, QuickNotes keeps everything organized, secure, and easily accessible — helping you think smarter, not harder.",
+    "size": 25,
+    "reviews": 1520,
+    "ratingAvg": 4.5,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 890 }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "FitTrack",
+    "companyName": "HealthPlus",
+    "image": "https://i.ibb.co/9kyccTGC/FitTrack.webp",
+    "description": "Track your workouts, calories, and progress in one app.",
+    "moredescription": "FitTrack is your all-in-one fitness companion that helps you monitor every step of your health journey. From tracking workouts and calories to logging sleep and hydration, it gives you a complete picture of your well-being. Users can set personalized fitness goals, participate in challenges, and analyze progress over time. With detailed charts and progress bars, FitTrack motivates consistency and healthy habits.\n\nThe AI-powered workout recommendations adjust based on your current level, preferred exercises, and goals. Integration with wearable devices ensures accurate tracking of heart rate, steps, and other health metrics. Users can schedule reminders, track streaks, and join a community to share achievements. Whether at home, gym, or outdoors, FitTrack provides guidance and insights to help you get fitter, stronger, and healthier efficiently.",
+    "size": 40,
+    "reviews": 2300,
+    "ratingAvg": 4.7,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1460 }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "FoodieFun",
+    "companyName": "YumSoft",
+    "image": "https://i.ibb.co/C51BvQpx/Foodie-Fun.webp",
+    "description": "Discover recipes, order food, and share your culinary experiences.",
+    "moredescription": "FoodieFun combines the love of cooking and dining into one exciting platform. It offers a massive library of recipes from around the world, complete with step-by-step instructions, ingredient lists, and nutritional details. Users can save favorite recipes, create meal plans, and order ingredients directly via the app. Community features allow sharing food photos, tips, and reviews, making cooking social and engaging.\n\nThe smart recommendation engine suggests recipes based on your preferences and ingredients at hand. Beginners and experienced cooks alike can follow tutorials, track cooking history, and discover trending dishes daily. FoodieFun ensures every kitchen experience is creative, flavorful, and fun, turning simple meals into culinary adventures and helping users develop new cooking skills effortlessly.",
+    "size": 50,
+    "reviews": 1100,
+    "ratingAvg": 4.3,
+    "downloads": 90000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 555 }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "WeatherNow",
+    "companyName": "SkyCast",
+    "image": "https://i.ibb.co/6011J2WJ/Weather-Now.webp",
+    "description": "Get accurate weather forecasts and severe weather alerts.",
+    "moredescription": "WeatherNow provides hyper-accurate forecasts powered by advanced meteorological models. It gives real-time updates, temperature trends, wind speeds, and humidity levels tailored to your location. Radar maps visualize weather patterns, helping you plan daily activities confidently. Severe weather alerts notify users instantly, keeping them safe from storms, heatwaves, or floods.\n\nThe app’s interface is visually appealing and simple, showing hourly and 7-day forecasts in clear charts. Custom themes, day/night modes, and widgets make checking the weather convenient. With global coverage, travel forecasts, and sunrise/sunset info, WeatherNow is essential for commuters, travelers, and anyone who wants to stay prepared and informed.",
+    "size": 20,
+    "reviews": 2000,
+    "ratingAvg": 4.6,
+    "downloads": 250000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1215 }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "TravelMate",
+    "companyName": "GlobeTrotter Inc",
+    "image": "https://i.ibb.co/bgmjgmRV/Travel-Mate.webp",
+    "description": "Plan trips, book hotels, and explore destinations with ease.",
+    "moredescription": "TravelMate is your personal travel assistant that makes exploring the world effortless. Plan trips, book hotels and flights, and create detailed itineraries in minutes. AI-powered recommendations help discover hidden gems, attractions, and local experiences tailored to your preferences. Offline maps and guides ensure you’re never lost, even without an internet connection.\n\nTravelMate tracks travel expenses, provides real-time weather info, and stores all bookings securely. User reviews and travel tips offer authentic insights, enhancing every journey. Whether it’s a weekend escape or a global adventure, TravelMate combines planning, inspiration, and organization to make every trip enjoyable, seamless, and memorable.",
+    "size": 60,
+    "reviews": 1700,
+    "ratingAvg": 4.4,
+    "downloads": 180000,
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 920 }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "BudgetBuddy",
+    "companyName": "FinanceLab",
+    "image": "https://i.ibb.co/gF673z54/Budget-Buddy.webp",
+    "description": "Track your expenses, set budgets, and save smarter.",
+    "moredescription": "BudgetBuddy is a complete financial companion that helps users manage money efficiently. It allows tracking of income, expenses, and budgets, giving a clear view of monthly cash flow. Users can categorize spending, set limits, and receive notifications when they approach budget thresholds. Graphs and reports visualize financial habits, helping identify saving opportunities and reduce unnecessary expenses.\n\nThe app also provides tips for smarter spending, debt management, and goal tracking. With secure cloud backup and password protection, users’ financial data remains private. Whether planning daily expenses or long-term savings goals, BudgetBuddy empowers individuals to make informed financial decisions, reduce stress, and achieve monetary goals effectively.",
+    "size": 35,
+    "reviews": 1400,
+    "ratingAvg": 4.5,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 760 }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "PhotoMagic",
+    "companyName": "SnapSoft",
+    "image": "https://i.ibb.co/XrPvzzKT/Photo-Magic.webp",
+    "description": "Edit photos like a pro with filters, stickers, and effects.",
+    "moredescription": "PhotoMagic offers professional-grade photo editing for everyone, from beginners to pros. Users can apply advanced filters, overlays, and effects, adjust colors, and remove imperfections with precision. The intuitive interface ensures creativity without complexity, allowing adjustments like brightness, contrast, saturation, and sharpness effortlessly. Stickers, text overlays, and frames add fun elements for social media sharing.\n\nBatch editing, layer-based edits, and AI enhancements streamline workflows for frequent users. With cloud sync, edited photos are accessible across devices. PhotoMagic also includes tutorials and templates for quick edits, making it ideal for photographers, influencers, and casual users seeking to create eye-catching visuals with ease and speed.",
+    "size": 55,
+    "reviews": 2500,
+    "ratingAvg": 4.8,
+    "downloads": 400000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1530 }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "MindRelax",
+    "companyName": "ZenApps",
+    "image": "https://i.ibb.co/cSHngfby/Mind-Relax.webp",
+    "description": "Meditation and mindfulness exercises to reduce stress.",
+    "moredescription": "MindRelax provides guided meditation, breathing exercises, and mindfulness sessions to help reduce stress and enhance mental well-being. The app offers programs for beginners, intermediate, and advanced users, focusing on relaxation, focus, and sleep improvement. Users can track progress, set reminders, and choose from calming music or ambient sounds to enhance sessions.\n\nMindRelax also includes mood tracking, daily mindfulness tips, and challenges to encourage consistent practice. Personalized routines help manage anxiety, improve focus, and foster inner calm. Suitable for busy professionals, students, and anyone seeking mental clarity, MindRelax transforms short daily practices into lifelong habits for balanced mental health."
+  },
+  {
+    "id": 9,
+    "title": "LanguageLearn",
+    "companyName": "EduTech",
+    "image": "https://i.ibb.co/1jrLnq8/Language-Learn.webp",
+    "description": "Learn new languages with interactive lessons and games.",
+    "moredescription": "LanguageLearn makes acquiring new languages engaging and interactive. It offers a combination of lessons, quizzes, flashcards, and games to reinforce vocabulary, grammar, and pronunciation. Users can practice speaking, listening, reading, and writing skills, receiving instant feedback to track progress. Adaptive learning algorithms adjust difficulty based on your performance, ensuring consistent growth.\n\nLanguageLearn also includes cultural insights, idiomatic expressions, and real-life scenarios to enhance fluency. Challenges, streak tracking, and gamified achievements motivate daily practice. Suitable for beginners and advanced learners, the app ensures a structured yet fun approach to mastering a new language efficiently.",
+    "size": 70,
+    "reviews": 2100,
+    "ratingAvg": 4.6,
+    "downloads": 220000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1190 }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "DailyPlanner",
+    "companyName": "OrganizeIt",
+    "image": "https://i.ibb.co/dswZ15K1/Daily-Planner.webp",
+    "description": "Plan your day, set reminders, and boost productivity.",
+    "moredescription": "DailyPlanner is a productivity-focused app that helps users organize tasks, schedules, and reminders efficiently. It allows creating daily, weekly, and monthly plans with color-coded categories, priority tags, and time allocations. Users can set recurring tasks, deadlines, and notifications, ensuring nothing is forgotten. Visual calendars and progress trackers provide a clear overview of workload and achievements.\n\nThe app also includes goal-setting features, habit tracking, and motivational insights to encourage consistency. Integration with devices and calendars ensures seamless synchronization. Whether managing work, studies, or personal projects, DailyPlanner helps users stay organized, meet deadlines, and maintain balance between tasks and leisure.",
+    "size": 32,
+    "reviews": 1300,
+    "ratingAvg": 4.4,
+    "downloads": 110000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 675 }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "TravelPix",
+    "companyName": "PhotoWorld",
+    "image": "https://i.ibb.co/3mHJjrs3/Travel-Pix.webp",
+    "description": "Share and explore stunning travel photos worldwide.",
+    "moredescription": "TravelPix is a social platform for travelers and photography enthusiasts to capture, share, and explore destinations globally. Users can upload high-quality images, organize them into albums, and receive feedback from a worldwide community. With geotagging and travel tips, TravelPix helps discover popular spots and hidden gems alike.\n\nThe app includes photo editing tools, stories, and interactive maps to track journeys visually. Followers, likes, and challenges encourage engagement, inspiring users to explore more and document their experiences creatively. TravelPix transforms traveling into a connected, visual, and inspirational journey.",
+    "size": 48,
+    "reviews": 1500,
+    "ratingAvg": 4.5,
+    "downloads": 100000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 885 }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "FitMusic",
+    "companyName": "HealthPlus",
+    "image": "https://i.ibb.co/d0QFh1J2/FitMusic.webp",
+    "description": "Workout playlists and fitness music to stay motivated.",
+    "moredescription": "FitMusic is designed to energize workouts with curated playlists and fitness-focused music. Users can choose tracks by tempo, genre, or activity type, enhancing motivation and performance. The app includes pre-made workout playlists for running, strength training, yoga, and HIIT sessions. Users can also create custom playlists and sync with wearable devices for tempo tracking.\n\nFitMusic uses AI recommendations to suggest songs based on workout intensity and duration. Integration with fitness apps ensures a synchronized experience for pacing and motivation. Whether training at home or the gym, FitMusic transforms exercise sessions into immersive, rhythm-driven experiences that boost energy, endurance, and focus.",
+    "size": 22,
+    "reviews": 900,
+    "ratingAvg": 4.3,
+    "downloads": 70000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 525 }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "RecipeMaster",
+    "companyName": "KitchenLab",
+    "image": "https://i.ibb.co/twWhms3s/Recipe-Master.webp",
+    "description": "Organize your recipes and discover new ones daily.",
+    "moredescription": "RecipeMaster helps food lovers store, manage, and discover recipes efficiently. Users can create their personal cookbook, categorize meals, and add ingredients, instructions, and photos. Daily recipe suggestions provide inspiration and introduce new cuisines. The app also supports shopping lists and meal planning to make cooking seamless.\n\nCommunity features allow users to share recipes, reviews, and modifications. RecipeMaster tracks favorite dishes, trending recipes, and nutritional information, helping users cook healthy and delicious meals every day. It’s ideal for both novice cooks and culinary enthusiasts looking to expand their kitchen repertoire.",
+    "size": 38,
+    "reviews": 1200,
+    "ratingAvg": 4.5,
+    "downloads": 90000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 70 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 595 }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "TaskFlow",
+    "companyName": "ProductiveApp",
+    "image": "https://i.ibb.co/fz8DTsGq/TaskFlow.webp",
+    "description": "Manage tasks efficiently with reminders and progress tracking.",
+    "moredescription": "TaskFlow simplifies task management for personal and professional use. Users can create tasks, subtasks, and set priorities, deadlines, and reminders. Progress tracking and visual dashboards show completion rates and pending workloads. Recurring tasks and notifications help maintain routine and discipline.\n\nCollaboration features allow sharing tasks with teams, assigning responsibilities, and monitoring progress collectively. TaskFlow’s intuitive interface ensures tasks are organized, deadlines are met, and productivity is maximized. It’s perfect for individuals and teams aiming to streamline workflow and achieve goals effectively.",
+    "size": 29,
+    "reviews": 1100,
+    "ratingAvg": 4.4,
+    "downloads": 80000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 565 }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "SleepWell",
+    "companyName": "WellnessTech",
+    "image": "https://i.ibb.co/84S3jD7G/Sleep-Well.webp",
+    "description": "Track your sleep patterns and improve your rest quality.",
+    "moredescription": "SleepWell helps users monitor and improve sleep quality using detailed analytics and personalized recommendations. The app tracks sleep cycles, duration, and disturbances, providing insights for better rest. Guided sleep meditations, ambient sounds, and bedtime routines improve relaxation and help users fall asleep faster.\n\nSleepWell includes smart alarms, sleep score tracking, and tips for improving sleep hygiene. It is suitable for individuals facing insomnia, irregular sleep schedules, or stress-related sleep issues. By combining data, guidance, and soothing audio, SleepWell ensures restorative, high-quality sleep and promotes overall health.",
+    "size": 33,
+    "reviews": 950,
+    "ratingAvg": 4.3,
+    "downloads": 70000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 55 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 520 }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "DailyQuotes",
+    "companyName": "InspireApps",
+    "image": "https://i.ibb.co/dJXQ8pDg/Daily-Quotes.webp",
+    "description": "Receive daily motivational quotes to boost your mindset.",
+    "moredescription": "DailyQuotes provides motivational, inspiring, and thought-provoking quotes each day to improve mindset and positivity. Users can personalize categories, save favorite quotes, and set reminders for daily inspiration. The app also includes shareable images and widgets for quick access.\n\nBy consistently exposing users to uplifting content, DailyQuotes helps develop a growth-oriented mindset, encourages reflection, and boosts motivation. Whether starting the day, taking a break, or winding down, these quotes offer encouragement and perspective to foster daily personal growth and a positive outlook."
+  },
+  {
+    "id": 17,
+    "title": "BudgetPlanner",
+    "companyName": "FinanceLab",
+    "image": "https://i.ibb.co/PsNtt2V8/Budget-Planner.webp",
+    "description": "Plan your monthly expenses and track savings effortlessly.",
+    "moredescription": "BudgetPlanner is a comprehensive financial management app that allows users to plan monthly expenses, track savings, and analyze spending habits. Users can create budgets for different categories, monitor real-time spending, and receive alerts when approaching limits. Visual charts and reports provide clear insights into financial health.\n\nThe app supports goal setting, recurring expenses, and income tracking. By helping users identify unnecessary spending and prioritize savings, BudgetPlanner promotes smarter financial decisions. Whether managing personal finances or preparing for big purchases, the app encourages disciplined, informed, and stress-free money management."
+  },
+  {
+    "id": 18,
+    "title": "YogaDaily",
+    "companyName": "ZenApps",
+    "image": "https://i.ibb.co/fYJkP4ky/Yoga-Daily.webp",
+    "description": "Daily yoga routines with guidance for beginners and pros.",
+    "moredescription": "YogaDaily offers structured yoga routines for all levels, from beginners to advanced practitioners. The app provides guided video sessions, detailed instructions, and customizable schedules to integrate yoga into daily life. Users can focus on flexibility, strength, balance, or relaxation according to their goals.\n\nYogaDaily also includes meditation, breathing exercises, and posture tips to enhance mindfulness and well-being. Progress tracking and reminders encourage consistency. By combining physical practice with mental relaxation, YogaDaily promotes holistic health, reduces stress, and helps users develop a sustainable yoga practice."
+  },
+  {
+    "id": 19,
+    "title": "PhotoGallery",
+    "companyName": "SnapSoft",
+    "image": "https://i.ibb.co/spdJgrbn/Photo-Gallery.webp",
+    "description": "Store, organize, and share your photos in a beautiful gallery.",
+    "moredescription": "PhotoGallery allows users to store, organize, and showcase their photos in a visually appealing gallery. Users can create albums, tag images, and sort collections for easy navigation. Cloud backup ensures photos are safe and accessible across devices.\n\nThe app supports sharing with friends and social media, adding captions, and applying basic edits. With intuitive design and efficient organization tools, PhotoGallery turns photo management into a seamless, enjoyable experience. It’s ideal for preserving memories, curating collections, and sharing life’s moments beautifully."
+  },
+  {
+    "id": 20,
+    "title": "MusicFlow",
+    "companyName": "TuneLab",
+    "image": "https://i.ibb.co/vCFb1Gw3/Music-Flow.webp",
+    "description": "Discover new music, create playlists, and enjoy streaming anytime.",
+    "moredescription": "MusicFlow is a music streaming platform that allows users to discover, enjoy, and organize music effortlessly. Users can explore curated playlists, trending tracks, and personalized recommendations based on listening habits. Custom playlists can be created and shared with friends.\n\nThe app supports offline listening, high-quality audio streaming, and seamless navigation across devices. MusicFlow also offers genre exploration, artist radio, and mood-based playlists, ensuring the perfect soundtrack for any moment. Whether for work, relaxation, or exercise, MusicFlow provides an immersive music experience that keeps users connected to their favorite tunes."
+  }
+]
