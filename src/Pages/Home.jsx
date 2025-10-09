@@ -7,9 +7,9 @@ import AppCard from '../Components/AppCard';
 const Home = () => {
   return (
     <main>
+      <AppCard></AppCard>
       <Banner></Banner>
       <StateCard></StateCard>
-      <AppCard></AppCard>
     </main>
   );
 };

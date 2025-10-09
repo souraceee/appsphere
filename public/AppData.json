@@ -138,7 +138,18 @@
     "companyName": "ZenApps",
     "image": "https://i.ibb.co/cSHngfby/Mind-Relax.webp",
     "description": "Meditation and mindfulness exercises to reduce stress.",
-    "moredescription": "MindRelax provides guided meditation, breathing exercises, and mindfulness sessions to help reduce stress and enhance mental well-being. The app offers programs for beginners, intermediate, and advanced users, focusing on relaxation, focus, and sleep improvement. Users can track progress, set reminders, and choose from calming music or ambient sounds to enhance sessions.\n\nMindRelax also includes mood tracking, daily mindfulness tips, and challenges to encourage consistent practice. Personalized routines help manage anxiety, improve focus, and foster inner calm. Suitable for busy professionals, students, and anyone seeking mental clarity, MindRelax transforms short daily practices into lifelong habits for balanced mental health."
+    "moredescription": "MindRelax provides guided meditation, breathing exercises, and mindfulness sessions to help reduce stress and enhance mental well-being. The app offers programs for beginners, intermediate, and advanced users, focusing on relaxation, focus, and sleep improvement. Users can track progress, set reminders, and choose from calming music or ambient sounds to enhance sessions.\n\nMindRelax also includes mood tracking, daily mindfulness tips, and challenges to encourage consistent practice. Personalized routines help manage anxiety, improve focus, and foster inner calm. Suitable for busy professionals, students, and anyone seeking mental clarity, MindRelax transforms short daily practices into lifelong habits for balanced mental health.",
+    "size": 42,
+    "reviews": 1950,
+    "ratingAvg": 4.7,
+    "downloads": 210000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1220 }
+    ]
   },
   {
     "id": 9,
@@ -279,7 +290,18 @@
     "companyName": "InspireApps",
     "image": "https://i.ibb.co/dJXQ8pDg/Daily-Quotes.webp",
     "description": "Receive daily motivational quotes to boost your mindset.",
-    "moredescription": "DailyQuotes provides motivational, inspiring, and thought-provoking quotes each day to improve mindset and positivity. Users can personalize categories, save favorite quotes, and set reminders for daily inspiration. The app also includes shareable images and widgets for quick access.\n\nBy consistently exposing users to uplifting content, DailyQuotes helps develop a growth-oriented mindset, encourages reflection, and boosts motivation. Whether starting the day, taking a break, or winding down, these quotes offer encouragement and perspective to foster daily personal growth and a positive outlook."
+    "moredescription": "DailyQuotes provides motivational, inspiring, and thought-provoking quotes each day to improve mindset and positivity. Users can personalize categories, save favorite quotes, and set reminders for daily inspiration. The app also includes shareable images and widgets for quick access.\n\nBy consistently exposing users to uplifting content, DailyQuotes helps develop a growth-oriented mindset, encourages reflection, and boosts motivation. Whether starting the day, taking a break, or winding down, these quotes offer encouragement and perspective to foster daily personal growth and a positive outlook.",
+    "size": 18,
+    "reviews": 1050,
+    "ratingAvg": 4.6,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 5 },
+      { "name": "3 star", "count": 45 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 640 }
+    ]
   },
   {
     "id": 17,
@@ -287,7 +309,18 @@
     "companyName": "FinanceLab",
     "image": "https://i.ibb.co/PsNtt2V8/Budget-Planner.webp",
     "description": "Plan your monthly expenses and track savings effortlessly.",
-    "moredescription": "BudgetPlanner is a comprehensive financial management app that allows users to plan monthly expenses, track savings, and analyze spending habits. Users can create budgets for different categories, monitor real-time spending, and receive alerts when approaching limits. Visual charts and reports provide clear insights into financial health.\n\nThe app supports goal setting, recurring expenses, and income tracking. By helping users identify unnecessary spending and prioritize savings, BudgetPlanner promotes smarter financial decisions. Whether managing personal finances or preparing for big purchases, the app encourages disciplined, informed, and stress-free money management."
+    "moredescription": "BudgetPlanner is a comprehensive financial management app that allows users to plan monthly expenses, track savings, and analyze spending habits. Users can create budgets for different categories, monitor real-time spending, and receive alerts when approaching limits. Visual charts and reports provide clear insights into financial health.\n\nThe app supports goal setting, recurring expenses, and income tracking. By helping users identify unnecessary spending and prioritize savings, BudgetPlanner promotes smarter financial decisions. Whether managing personal finances or preparing for big purchases, the app encourages disciplined, informed, and stress-free money management.",
+    "size": 36,
+    "reviews": 1150,
+    "ratingAvg": 4.5,
+    "downloads": 95000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 65 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 600 }
+    ]
   },
   {
     "id": 18,
@@ -295,7 +328,18 @@
     "companyName": "ZenApps",
     "image": "https://i.ibb.co/fYJkP4ky/Yoga-Daily.webp",
     "description": "Daily yoga routines with guidance for beginners and pros.",
-    "moredescription": "YogaDaily offers structured yoga routines for all levels, from beginners to advanced practitioners. The app provides guided video sessions, detailed instructions, and customizable schedules to integrate yoga into daily life. Users can focus on flexibility, strength, balance, or relaxation according to their goals.\n\nYogaDaily also includes meditation, breathing exercises, and posture tips to enhance mindfulness and well-being. Progress tracking and reminders encourage consistency. By combining physical practice with mental relaxation, YogaDaily promotes holistic health, reduces stress, and helps users develop a sustainable yoga practice."
+    "moredescription": "YogaDaily offers structured yoga routines for all levels, from beginners to advanced practitioners. The app provides guided video sessions, detailed instructions, and customizable schedules to integrate yoga into daily life. Users can focus on flexibility, strength, balance, or relaxation according to their goals.\n\nYogaDaily also includes meditation, breathing exercises, and posture tips to enhance mindfulness and well-being. Progress tracking and reminders encourage consistency. By combining physical practice with mental relaxation, YogaDaily promotes holistic health, reduces stress, and helps users develop a sustainable yoga practice.",
+    "size": 45,
+    "reviews": 1800,
+    "ratingAvg": 4.7,
+    "downloads": 170000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 570 },
+      { "name": "5 star", "count": 1100 }
+    ]
   },
   {
     "id": 19,
@@ -303,7 +347,18 @@
     "companyName": "SnapSoft",
     "image": "https://i.ibb.co/spdJgrbn/Photo-Gallery.webp",
     "description": "Store, organize, and share your photos in a beautiful gallery.",
-    "moredescription": "PhotoGallery allows users to store, organize, and showcase their photos in a visually appealing gallery. Users can create albums, tag images, and sort collections for easy navigation. Cloud backup ensures photos are safe and accessible across devices.\n\nThe app supports sharing with friends and social media, adding captions, and applying basic edits. With intuitive design and efficient organization tools, PhotoGallery turns photo management into a seamless, enjoyable experience. It’s ideal for preserving memories, curating collections, and sharing life’s moments beautifully."
+    "moredescription": "PhotoGallery allows users to store, organize, and showcase their photos in a visually appealing gallery. Users can create albums, tag images, and sort collections for easy navigation. Cloud backup ensures photos are safe and accessible across devices.\n\nThe app supports sharing with friends and social media, adding captions, and applying basic edits. With intuitive design and efficient organization tools, PhotoGallery turns photo management into a seamless, enjoyable experience. It’s ideal for preserving memories, curating collections, and sharing life’s moments beautifully.",
+    "size": 28,
+    "reviews": 980,
+    "ratingAvg": 4.2,
+    "downloads": 65000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 85 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 510 }
+    ]
   },
   {
     "id": 20,
@@ -311,6 +366,17 @@
     "companyName": "TuneLab",
     "image": "https://i.ibb.co/vCFb1Gw3/Music-Flow.webp",
     "description": "Discover new music, create playlists, and enjoy streaming anytime.",
-    "moredescription": "MusicFlow is a music streaming platform that allows users to discover, enjoy, and organize music effortlessly. Users can explore curated playlists, trending tracks, and personalized recommendations based on listening habits. Custom playlists can be created and shared with friends.\n\nThe app supports offline listening, high-quality audio streaming, and seamless navigation across devices. MusicFlow also offers genre exploration, artist radio, and mood-based playlists, ensuring the perfect soundtrack for any moment. Whether for work, relaxation, or exercise, MusicFlow provides an immersive music experience that keeps users connected to their favorite tunes."
+    "moredescription": "MusicFlow is a music streaming platform that allows users to discover, enjoy, and organize music effortlessly. Users can explore curated playlists, trending tracks, and personalized recommendations based on listening habits. Custom playlists can be created and shared with friends.\n\nThe app supports offline listening, high-quality audio streaming, and seamless navigation across devices. MusicFlow also offers genre exploration, artist radio, and mood-based playlists, ensuring the perfect soundtrack for any moment. Whether for work, relaxation, or exercise, MusicFlow provides an immersive music experience that keeps users connected to their favorite tunes.",
+    "size": 65,
+    "reviews": 3200,
+    "ratingAvg": 4.5,
+    "downloads": 550000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 1880 }
+    ]
   }
 ]
