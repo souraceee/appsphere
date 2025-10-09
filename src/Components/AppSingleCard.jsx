@@ -1,11 +1,13 @@
 import React from 'react';
 import { FaStar } from 'react-icons/fa';
 import { MdOutlineFileDownload } from 'react-icons/md';
+import { Link } from 'react-router-dom';
 
 const AppSingleCard = ({ app }) => {
-  const {title, image, downloads, ratings} = app
+  const {id, title, image, downloads, ratings} = app
   return (
-    <div className="p-4 bg-white rounded-xl transition">
+    <Link to={`/apps/${id}`}>
+    <div className="p-4 bg-white rounded-xl transition duration-200 ease-linear hover:scale-[102%] hover:cursor-pointer">
       {/* Image */}
       <img
         src={image}
@@ -30,6 +32,7 @@ const AppSingleCard = ({ app }) => {
         </div>
       </div>
     </div>
+    </Link>
   );
 };
 
