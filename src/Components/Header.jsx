@@ -60,7 +60,7 @@ const Header = () => {
             {/* Logo */}
             <Link
               to={"/"}
-              className="flex items-center gap-1 text-base font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent md:text-xl"
+              className="flex items-center gap-1 text-base font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent transition-colors duration-200 ease-linear hover:from-[#9F62F2] hover:to-[#9F62F2] md:text-xl"
             >
               <img
                 src="/logo.png"
