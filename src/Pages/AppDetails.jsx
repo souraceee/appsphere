@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import useApps from "../Hooks/useApps";
 import LoadingSkeleton from "../Components/Loading";
@@ -6,17 +6,26 @@ import Container from "../Components/Container";
 import downloadIcon from "../assets/download-icon.png";
 import reviewIcon from "../assets/review-icon.png";
 import starIcon from "../assets/star-icon.png";
-import { Bar, BarChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
+import {
+  Bar,
+  BarChart,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from "recharts";
+import { toast, ToastContainer } from "react-toastify";
 
 const AppDetails = () => {
   const { id } = useParams();
   const { apps, loading, error } = useApps();
-
+  const [buttonClicked, setButtonClicked] = useState(false);
+  
   if (loading) return <LoadingSkeleton cards={1} showTitle={true} />;
-
+  
   const app = apps.find((a) => a.id === Number(id));
   if (!app) return <Error message="App not found!" />;
-
+  
   if (error) return <Error message={error.message} />;
 
   const {
@@ -29,8 +38,16 @@ const AppDetails = () => {
     reviews,
     size,
   } = app;
+
+
+  const handleButtonClick = () => {
+    setButtonClicked(true);
+    toast.success(`${title} installed successfully!`);
+  }
+  
   return (
     <Container>
+      <ToastContainer/>
       <div className="section-padding">
         {/* DETAILS */}
         <div className="card rounded-none lg:card-side">
@@ -93,8 +110,8 @@ const AppDetails = () => {
 
             {/* Button */}
             <div className="card-actions">
-              <button className="btn bg-[#00D390] text-white transition-colors duration-200 ease-linear hover:!bg-[#001931] hover:outline-[#00D390]">
-                Install Now ({size} MB)
+              <button disabled={buttonClicked} onClick={handleButtonClick} className="btn bg-[#00D390] text-white transition-colors duration-200 ease-linear hover:!bg-[#001931] hover:outline-[#00D390]">
+                {buttonClicked ? "Installed" : `Install Now (${size} MB)`}
               </button>
             </div>
           </div>
