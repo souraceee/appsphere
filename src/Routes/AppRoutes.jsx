@@ -8,16 +8,11 @@ import MyInstallation from "../Pages/MyInstallation";
 export const router = createBrowserRouter([
   {
     path: "/",
-    Component: MainLayout,
-    errorElement: <ErrorPage />,    // * Error Page
-    hydrateFallbackElement: <p>Loading...</p>, // * Just to remove console error message of hydrateFallback
-
+    Component: MainLayout, // Header & Footer stay
     children: [
       {
-        // path: "/home",
         index: true,
         Component: Home,
-        // loader: () => fetch("./furnitureData.json"),
       },
       {
         path: "/apps",
@@ -26,7 +21,12 @@ export const router = createBrowserRouter([
       {
         path: "/installation",
         Component: MyInstallation,
-      }
-    ]
-  }
-])
+      },
+      {
+        path: "*",          // Catch-all route for wrong URLs
+        Component: () => <ErrorPage />, 
+      },
+    ],
+  },
+]);
+

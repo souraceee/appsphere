@@ -19,6 +19,8 @@ AppSphere is a responsive app-store UI built with React. It displays apps from a
 - React Router v6
 - Tailwind CSS
 - Daisy Ui
+- React Icon
+- Axios
 - Recharts (for review chart)
 - react-toastify
 - Git & GitHub
