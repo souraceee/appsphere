@@ -6,6 +6,7 @@ import Container from "../Components/Container";
 import downloadIcon from "../assets/download-icon.png";
 import reviewIcon from "../assets/review-icon.png";
 import starIcon from "../assets/star-icon.png";
+import { Bar, BarChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 
 const AppDetails = () => {
   const { id } = useParams();
@@ -18,11 +19,20 @@ const AppDetails = () => {
 
   if (error) return <Error message={error.message} />;
 
-  const { title, companyName, image, downloads, ratingAvg, reviews, size } =
-    app;
+  const {
+    title,
+    companyName,
+    image,
+    moredescription,
+    downloads,
+    ratingAvg,
+    reviews,
+    size,
+  } = app;
   return (
     <Container>
       <div className="section-padding">
+        {/* DETAILS */}
         <div className="card rounded-none lg:card-side">
           {/* Image */}
           <figure>
@@ -88,6 +98,30 @@ const AppDetails = () => {
               </button>
             </div>
           </div>
+        </div>
+
+        <hr className="my-10 text-[#001931]" />
+
+        {/* RATING CHART */}
+        <div>
+          <h4 className="text-2xl font-semibold">Rating</h4>
+
+          <ResponsiveContainer width="100%" height={350}>
+            <BarChart data={app.ratings} layout="vertical">
+              <XAxis type="number" />
+              <YAxis dataKey="name" type="category" />
+              <Tooltip />
+              <Bar dataKey="count" fill="#FF8811" barSize={32} />
+            </BarChart>
+          </ResponsiveContainer>
+        </div>
+
+        <hr className="my-10 text-[#001931]" />
+
+        {/* DESCRIPTION */}
+        <div>
+          <h4 className="text-2xl font-semibold">Description</h4>
+          <p className="mt-6">{moredescription}</p>
         </div>
       </div>
     </Container>
