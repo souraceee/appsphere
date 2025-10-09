@@ -32,3 +32,8 @@ p {
 .banner-button {
   @apply flex items-center gap-2 py-3 px-5 text-sm font-semibold text-[#001931] border border-[#D2D2D2] rounded-sm transition-colors duration-200 ease-linear hover:cursor-pointer hover:border-transparent hover:text-white hover:bg-[#001931] lg:text-xl;
 }
+
+.section-padding {
+@apply py-10 md:py-14 lg:py-20
+}
+
