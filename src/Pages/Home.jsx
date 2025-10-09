@@ -1,11 +1,12 @@
 import React from 'react';
 import Container from '../Components/Container';
+import Banner from '../Components/Banner';
 
 const Home = () => {
   return (
-    <div>
-      HOME
-    </div>
+    <main>
+      <Banner></Banner>
+    </main>
   );
 };
 

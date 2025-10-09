@@ -6,8 +6,8 @@ const Footer = () => {
   return (
     <footer class="bg-[#001931] text-white">
       <Container>
-        <div className="footer grid grid-cols-12 gap-8 text-white py-10 px-5 border-b-1 border-[#e5e7eb5d]">
-          <div className="col-span-11 md:col-span-6 lg:col-span-4">
+        <div className="footer grid grid-cols-12 gap-8 text-white py-10 border-b-1 border-[#e5e7eb5d]">
+          <div className="col-span-10 md:col-span-6 lg:col-span-4">
             <Link
               to={"/"}
               className="flex items-center gap-1 text-base font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent transition-colors duration-200 ease-linear hover:from-[#9F62F2] hover:to-[#632EE3] md:text-xl"
@@ -20,7 +20,7 @@ const Footer = () => {
               AppSphere
             </Link>
 
-            <p className="mt-2 text-gray-400 max-w-sm">
+            <p className="mt-2 !text-md text-gray-400 md:max-w-sm">
               AppSphere is your go-to platform for discovering the latest and
               most innovative apps. We aim to inspire, inform, and connect users
               with apps that make life easier and more enjoyable.
@@ -75,8 +75,8 @@ const Footer = () => {
           </form> */}
         </div>
 
-        <div className="footer sm:footer-horizontal footer-center text-white p-7">
-          <p>Copyright © {new Date().getFullYear()} - All right reserved by AppSphere</p>
+        <div className="footer sm:footer-horizontal footer-center p-7">
+          <p className="!textarea-sm !text-white">Copyright © {new Date().getFullYear()} - All right reserved by AppSphere</p>
         </div>
       </Container>
     </footer>
