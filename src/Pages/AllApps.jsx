@@ -68,7 +68,7 @@ const AllApps = () => {
 
           {/* Apps Grid */}
           {searchLoading ? (
-            <Loading cards={20} showTitle={false} />
+            <Loading cards={20} showTitle={false} className="mt-0"/>
           ) : (
             <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
               {filteredApps.length > 0 ? (
