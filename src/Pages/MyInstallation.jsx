@@ -28,13 +28,13 @@ const MyInstallation = () => {
         return txtToNum;
       }
     };
-    if (order === "download-high") {
+    if (order === "download-size-high") {
       sortedApps.sort(
         (a, b) =>
           downloadTextToNumber(b.downloads) -
           downloadTextToNumber(a.downloads)
       );
-    } else if (order === "download-low") {
+    } else if (order === "download-size-low") {
       sortedApps.sort(
         (a, b) =>
           downloadTextToNumber(a.downloads) -
@@ -89,10 +89,10 @@ const MyInstallation = () => {
               <option value="none" className="text-base font-medium">
                 Sort By Size
               </option>
-              <option value="download-low" className="text-base font-medium">
+              <option value="download-size-low" className="text-base font-medium">
                 Low to High
               </option>
-              <option value="download-high" className="text-base font-medium">
+              <option value="download-size-high" className="text-base font-medium">
                 High to Low
               </option>
             </select>

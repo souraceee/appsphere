@@ -9,7 +9,8 @@ import AppDetails from "../Pages/AppDetails";
 export const router = createBrowserRouter([
   {
     path: "/",
-    Component: MainLayout, // Header & Footer stay
+    Component: MainLayout,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         index: true,

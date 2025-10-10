@@ -3,16 +3,15 @@ import Container from "../Components/Container";
 import useApps from "../Hooks/useApps";
 import Loading from "../Components/Loading";
 import AppSingleCard from "../Components/AppSingleCard";
-import Error from "../Components/Error";
 import { IoSearchOutline } from "react-icons/io5";
 
 const AllApps = () => {
-  const { apps, loading, error } = useApps();
+  const { apps } = useApps();
   const [search, setSearch] = useState("");
   const [filteredApps, setFilteredApps] = useState([]);
   const [searchLoading, setSearchLoading] = useState(false);
 
-//* Search
+  //* Search
   useEffect(() => {
     if (!apps.length) return;
 
@@ -36,9 +35,6 @@ const AllApps = () => {
     return () => clearTimeout(timer);
   }, [search, apps]);
 
-  if (loading) return <Loading cards={20} showTitle={true} />;
-  if (error) return <Error message={error.message} />;
-
   return (
     <section className="section-padding">
       <Container>
@@ -58,7 +54,7 @@ const AllApps = () => {
             <h4>({filteredApps.length}) Apps Found</h4>
 
             <form className="relative">
-              <IoSearchOutline className="absolute top-4 left-4"/>
+              <IoSearchOutline className="absolute top-4 left-4" />
               <input
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
@@ -72,7 +68,7 @@ const AllApps = () => {
 
           {/* Apps Grid */}
           {searchLoading ? (
-            <Loading cards={8} showTitle={false} />
+            <Loading cards={20} showTitle={false} />
           ) : (
             <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
               {filteredApps.length > 0 ? (
@@ -80,7 +76,9 @@ const AllApps = () => {
                   <AppSingleCard key={app.id} app={app} />
                 ))
               ) : (
-                <Error message="No apps found" />
+                <p className="col-span-12 text-3xl text-center">
+                  No apps found
+                </p>
               )}
             </div>
           )}

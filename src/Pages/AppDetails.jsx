@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import useApps from "../Hooks/useApps";
 import LoadingSkeleton from "../Components/Loading";
@@ -14,18 +14,23 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import { toast, ToastContainer } from "react-toastify";
+import { toast } from "react-toastify";
 
 const AppDetails = () => {
   const { id } = useParams();
   const { apps, loading, error } = useApps();
   const [buttonClicked, setButtonClicked] = useState(false);
 
+  useEffect(() => {
+    const savedAppInLS = JSON.parse(localStorage.getItem("installedApps")) || [];
+    const installedApp = savedAppInLS.some((app) => app.id === Number(id));
+    if (installedApp) setButtonClicked(true);
+  }, [id]);
+  
   if (loading) return <LoadingSkeleton cards={1} showTitle={true} />;
 
   const app = apps.find((a) => a.id === Number(id));
   if (!app) return <Error message="App not found!" />;
-
   if (error) return <Error message={error.message} />;
 
   const {
@@ -53,10 +58,8 @@ const AppDetails = () => {
       localStorage.setItem("installedApps", JSON.stringify(updatedApps));
     }
   };
-
   return (
     <Container>
-      {/* <ToastContainer /> */}
       <div className="section-padding">
         {/* DETAILS */}
         <div className="card rounded-none lg:card-side">

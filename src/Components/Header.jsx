@@ -40,7 +40,7 @@ const Header = () => {
               </div>
               <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content gap-2 bg-base-100 rounded-box z-1 mt-3 w-52 shadow"
+                className="menu menu-sm dropdown-content gap-2 bg-base-100 rounded-box z-10 mt-3 w-52 shadow"
               >
                 {navigationData.map(({ id, path, name }) => (
                   <li key={id}>
