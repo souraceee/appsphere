@@ -20,12 +20,12 @@ const AppDetails = () => {
   const { id } = useParams();
   const { apps, loading, error } = useApps();
   const [buttonClicked, setButtonClicked] = useState(false);
-  
+
   if (loading) return <LoadingSkeleton cards={1} showTitle={true} />;
-  
+
   const app = apps.find((a) => a.id === Number(id));
   if (!app) return <Error message="App not found!" />;
-  
+
   if (error) return <Error message={error.message} />;
 
   const {
@@ -39,15 +39,22 @@ const AppDetails = () => {
     size,
   } = app;
 
-
   const handleButtonClick = () => {
     setButtonClicked(true);
     toast.success(`${title} installed successfully!`);
-  }
-  
+
+    const savedApps = JSON.parse(localStorage.getItem("installedApps")) || [];
+    const alreadyInstalled = savedApps.some((item) => item.id === app.id);
+
+    if (!alreadyInstalled) {
+      const updatedApps = [...savedApps, app];
+      localStorage.setItem("installedApps", JSON.stringify(updatedApps));
+    }
+  };
+
   return (
     <Container>
-      <ToastContainer/>
+      <ToastContainer />
       <div className="section-padding">
         {/* DETAILS */}
         <div className="card rounded-none lg:card-side">
@@ -110,7 +117,11 @@ const AppDetails = () => {
 
             {/* Button */}
             <div className="card-actions">
-              <button disabled={buttonClicked} onClick={handleButtonClick} className="btn bg-[#00D390] text-white transition-colors duration-200 ease-linear hover:!bg-[#001931] hover:outline-[#00D390]">
+              <button
+                disabled={buttonClicked}
+                onClick={handleButtonClick}
+                className="btn bg-[#00D390] text-white transition-colors duration-200 ease-linear hover:!bg-[#001931] hover:outline-[#00D390]"
+              >
                 {buttonClicked ? "Installed" : `Install Now (${size} MB)`}
               </button>
             </div>
