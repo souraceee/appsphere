@@ -28,7 +28,7 @@ const Footer = () => {
           </div>
 
           <nav className="col-span-12 md:col-span-3 lg:col-span-2">
-            <h6 className="footer-title">Explore</h6>
+            <h6 className="footer-title !text-white text-md">Explore</h6>
             <a className="link link-hover">All Apps</a>
             <a className="link link-hover">Top Rated</a>
             <a className="link link-hover">New Releases</a>
@@ -36,7 +36,7 @@ const Footer = () => {
           </nav>
 
           <nav className="col-span-12 md:col-span-3 lg:col-span-2">
-            <h6 className="footer-title">Developers</h6>
+            <h6 className="footer-title !text-white text-md">Developers</h6>
             <a className="link link-hover">Submit Your App</a>
             <a className="link link-hover">Developer Docs</a>
             <a className="link link-hover">API Access</a>
@@ -44,7 +44,7 @@ const Footer = () => {
           </nav>
 
           <nav className="col-span-12 md:col-span-3 lg:col-span-2">
-            <h6 className="footer-title">Company</h6>
+            <h6 className="footer-title !text-white text-md">Company</h6>
             <a className="link link-hover">About AppSphere</a>
             <a className="link link-hover">Careers</a>
             <a className="link link-hover">Contact</a>
@@ -52,7 +52,7 @@ const Footer = () => {
           </nav>
 
           <nav className="col-span-12 md:col-span-3 lg:col-span-2">
-            <h6 className="footer-title">Resources</h6>
+            <h6 className="footer-title !text-white text-md">Resources</h6>
             <a className="link link-hover">Help Center</a>
             <a className="link link-hover">User Guides</a>
             <a className="link link-hover">Community</a>

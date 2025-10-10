@@ -33,6 +33,8 @@ const AppDetails = () => {
     companyName,
     image,
     moredescription,
+    moredescription2,
+    moredescription3,
     downloads,
     ratingAvg,
     reviews,
@@ -54,12 +56,12 @@ const AppDetails = () => {
 
   return (
     <Container>
-      <ToastContainer />
+      {/* <ToastContainer /> */}
       <div className="section-padding">
         {/* DETAILS */}
         <div className="card rounded-none lg:card-side">
           {/* Image */}
-          <figure>
+          <figure className="md:!justify-start">
             <img src={image} alt="Album" className="!size-[350px]" />
           </figure>
 
@@ -150,6 +152,8 @@ const AppDetails = () => {
         <div>
           <h4 className="text-2xl font-semibold">Description</h4>
           <p className="mt-6">{moredescription}</p>
+          <p className="mt-6">{moredescription2}</p>
+          <p className="mt-6">{moredescription3}</p>
         </div>
       </div>
     </Container>

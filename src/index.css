@@ -37,3 +37,6 @@ p {
 @apply py-10 md:py-14 lg:py-20
 }
 
+.select-style {
+  @apply focus-within:outline-[#632ee3] focus-within:outline-offset-0;
+}
